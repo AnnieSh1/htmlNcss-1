@@ -1,0 +1,114 @@
+*{
+	margin:0px;
+	padding:0px; 
+}
+
+.bgimage{
+    background-image: url('pf.jpeg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.menu{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+	width: 20%;
+	line-height: 100px; /*Annie Sharma will be in centre from top and bottom*/
+    float: left;
+}
+
+.leftmenu h4{
+	padding-left: 70px; /*Annie Sharma will be in centre from left upto 70px*/
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+	font-family: calibri;
+}
+
+.rightmenu{
+    width: 70%;
+    height: 100px;
+    float: right;
+}
+
+.rightmenu ul{
+	margin-left: 200px;
+}
+
+.rightmenu ul li{
+	font-family: calibri;
+	display: inline-block; /*right menus will display in a single line*/
+	list-style: none;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 60px; /* there will be a gap between all li's (i.e. menus) from the left side */
+    text-transform: uppercase; /* All the menus will display in uppercase letters */
+}
+
+#firstlist{
+	color: orange;
+}
+
+.rightmenu ul li:hover{
+	color: orange;
+}
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color: black;
+}
+
+.text h4{
+    font-size: 16px;
+    font-family: calibri;
+}
+
+.text h1{
+	font-size: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.text h3{
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: calibri;
+}
+.text button{
+	font-size: 15px;
+	font-family: calibri;
+	font-weight: bold;
+}
+
+.text button:hover{
+	background-color: orange;
+}
+
+#buttonone{
+	border: none;
+	line-height: 40px;
+	width: 150px;
+	border: 3px solid black;
+}
+
+#buttontwo{
+	background-color: transparent;
+	border: none;
+	border: 3px solid white;
+    line-height: 40px;
+    width: 150px;
+}
+
+#buttontwo:hover{
+    border: 3px solid orange;
+}
